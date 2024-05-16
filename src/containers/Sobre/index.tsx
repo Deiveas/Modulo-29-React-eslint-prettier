@@ -7,7 +7,7 @@ const Sobre = () => (
     <Titulo fontSize={16}>Sobre mim</Titulo>
     <Paragrafo tipo="secundario">
       Desenvolvedor Front-End altamente motivado e apaixonado por criar
-      experiências de usuário excepcionais. Com uma sólida formação no
+      experiências de usuário excepcionais. <br /> Com uma sólida formação no
       desenvolvimento de web sites.
     </Paragrafo>
     <GithubSecao>
