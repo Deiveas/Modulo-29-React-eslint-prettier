@@ -6,6 +6,7 @@ import EstiloGlobal, { Container } from './styles'
 import temaLight from './Themes/light'
 import temaDark from './Themes/dark'
 import { useState } from 'react'
+import Footer from './containers/Footer/Footer'
 
 function App() {
   const [estaUsandoTemaDark, setEstaUsandoTemaDark] = useState(true)
@@ -21,6 +22,7 @@ function App() {
         <main>
           <Sobre />
           <Projetos />
+          <Footer />
         </main>
       </Container>
     </ThemeProvider>
